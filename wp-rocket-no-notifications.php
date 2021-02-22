@@ -1,10 +1,19 @@
 <?php
 /**
- * Plugin Name: hide wp-rocket htaccess notifications
- * Description: let's get this to work!
+ * Plugin Name: WP Rocket | Hide htaccess and cache directory permision warning 
+ * Description: Disables WP Rocket’s warning when the htaccess file isn't writable.
+ * Plugin URI:  https://github.com/Elvisozoria/wp-rocket-notification-helper
+ * Author:      WP Rocket Support Team's new member
+ * Author URI:  http://wp-rocket.me/
  * License:     GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Copyright SAS WP MEDIA 2021
  */
+
+
+// Standard plugin security, keep this line in place.
+defined( 'ABSPATH' ) or die();
 
 
 function hide_rocket_warning_htaccess_permissions() {
