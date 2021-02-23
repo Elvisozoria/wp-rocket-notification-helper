@@ -1,6 +1,6 @@
 # WP Rocket | Hide htaccess and cache directory permision warning 
 
-Disables WP Rocket’s warning when the htaccess file isn't writable.
+Disables WP Rocket’s warning when the htaccess.
 
 Documentation:
 * to be written
